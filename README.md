@@ -50,6 +50,10 @@ python -m unittest discover -s tests -v
 - Increase the minimum motion area to reduce noisy detections
 - Detection results are visual estimates, not guaranteed object classifications
 - Use IDLE Python 3.10+ or my version IDLE Python 3.14
+  
+## Known Issues
+- False detection
+- Slow
 
 ## Privacy & Security
 
