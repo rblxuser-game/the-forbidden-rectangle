@@ -11,6 +11,7 @@ A Python desktop application for screen capture, computer-vision analysis, and m
 - Centroid-based object tracking
 - Temporary tracking IDs
 - Configurable motion-region filtering
+- big red rectangle for overlay and yes
 
 ## Requirements
 
@@ -48,9 +49,12 @@ python -m unittest discover -s tests -v
 - Large screen changes and animations may trigger detections
 - Increase the minimum motion area to reduce noisy detections
 - Detection results are visual estimates, not guaranteed object classifications
+- Use IDLE Python 3.10+ or my version IDLE Python 3.14
 
 ## Privacy & Security
 
 - Screen capture may include sensitive information
 - Review the source code before running
 - Only use screen analysis where you have permission
+- May/Will violate game rules
+- AntiVirus may flag as malicous, it's not malicous its a python executeable
