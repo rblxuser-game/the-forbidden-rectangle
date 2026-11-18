@@ -16,7 +16,7 @@ A Python desktop application for screen capture, computer-vision analysis, and m
 ## Requirements
 
 - Windows 10/11, macOS, or Linux
-- Python 3.10+
+- IDLE Python 3.10+ or my version IDLE Python 3.14
 - Desktop environment with screen-capture support
 
 ## Setup (Windows PowerShell)
@@ -49,7 +49,6 @@ python -m unittest discover -s tests -v
 - Large screen changes and animations may trigger detections
 - Increase the minimum motion area to reduce noisy detections
 - Detection results are visual estimates, not guaranteed object classifications
-- Use IDLE Python 3.10+ or my version IDLE Python 3.14
   
 ## Known Issues
 - False detection
