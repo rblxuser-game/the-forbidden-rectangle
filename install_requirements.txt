@@ -1,0 +1,3 @@
+Install Requirements (USE CMD)
+
+pip install opencv-python numpy torch mss ultralytics PySide6
